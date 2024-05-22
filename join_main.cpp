@@ -248,9 +248,9 @@ int main(int argc, char *argv[])
                                 free(garbage);
                             }
                         }
-                        free(orders);
-                        free(products);
                     }
+                    free(orders);
+                    free(products);
                 }
             }
         }
